@@ -1,0 +1,17 @@
+tomcat
+------
+
+- https://tomcat.apache.org/download-80.cgi
+- selecionar arquivo tar.gz do core da versão 8.5.23
+- extrair arquivo baixado e colocar o diretório em /home/mint, por exemplo
+
+eclipse
+-------
+- https://www.eclipse.org > download arquivo tar.gz
+- extrair arquivo, acessar a pasta, executar eclipse-inst, selecionar java ee...
+
+adicionar apache tomcat ao eclipse:
+- abrir eclipse
+- window > preferences > server > runtime... > add > apache tomcat 8.5
+- marcar 'create a new local server', depois next
+- colocar tomcat directory para /home/mint/apache-tomcat-8.5.23, depois finish
